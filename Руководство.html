@@ -52,6 +52,26 @@ https://github.com/Fenya1927/heroku-tg-bot
   }
 -- Создаем Procfile для того чтоб Heroku знал как запускать наш файл.
 web: node index.js
+
+Прописывает в package.json версию node.js.
+
+"engines":{
+    "node": "12.13.1"
+  },
+
+-- git commit -m "bot1"
+-- git status
+-- git remote add origin https://github.com/Fenya1927/heroku-tg-bot.git
+-- git push -u origin master
+Далее прописываем логин и пароль для Git.
+Fenya1927
+aloncolol1488
+
+Заходим на https://dashboard.heroku.com/new-app
+создаем нвоое приложение heroku-tg-bot-test.
+Заходим в раздел Deploy нажимаем на соединение с Github нажимаем search и выбираем наш репозиторий.
+Нажимаем внизу страницы Deploy branch.
+
 </pre>
 			</td>
 		</tr>
